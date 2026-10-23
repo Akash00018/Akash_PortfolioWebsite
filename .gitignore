@@ -1,0 +1,27 @@
+# Dependencies and build output
+_original_project/
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# Local environment and secrets
+.env
+.env.*
+*.local
+*.key
+*.pem
+secrets/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
